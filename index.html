@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="assets/img/logo_vklad.png" />
+    <link rel="stylesheet" href="assets/styles/main.css" />
+    <title>БурМастер</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header_menu flex">
+          <div class="header__menu__left">
+            <a href="index.html">
+              <img src="assets/img/logo.png" alt="logo" />
+              <p>
+                Бурение <br />
+                скважин на воду
+              </p>
+            </a>
+          </div>
+          <div class="header__menu__center">
+            <nav>
+              <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a id="services">Услуги</a></li>
+                <li><a id="basket">Корзина</a></li>
+                <div class="basket">
+                  <div id="close">
+                    <img src="assets/img/xmark-solid.svg" alt="xmark-solid" />
+                  </div>
+                  <h4>Корзина</h4>
+                  <p>2 услуги</p>
+                  <div class="basket_cards">
+                    <div class="basket_card">
+                      <div class="right">
+                        <p>1.</p>
+                      </div>
+                      <div class="left">
+                        <img src="assets/img/services1.jpg" alt="" />
+                      </div>
+                      <div class="center">
+                        <p>Бурение под ограждения</p>
+                        <p>
+                          Наша организация оказывает услуги по бурению на
+                          глубину отверстий на глубину до 15 метров и ширину до
+                          1 метра под заборы и ограждения.
+                        </p>
+                        <div class="buttons">
+                          <a>Удалить</a>
+                          <a>Заказать</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="basket_card">
+                      <div class="right">
+                        <p>2.</p>
+                      </div>
+                      <div class="left">
+                        <img src="assets/img/seervisec 1.png" alt="" />
+                      </div>
+                      <div class="center">
+                        <p>Бурение под ограждения</p>
+                        <p>
+                          Наша организация оказывает услуги по бурению на
+                          глубину отверстий на глубину до 15 метров и ширину до
+                          1 метра под заборы и ограждения.
+                        </p>
+                        <div class="buttons">
+                          <a>Удалить</a>
+                          <a>Заказать</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <li><a id="contacts">Контакты</a></li>
+                <li><a id="admin">Панель управления</a></li>
+                <li><a id="profile">Профиль</a></li>
+              </ul>
+            </nav>
+            
+
+              <div class="menu">
+                <input type="checkbox" id="burger-checkbox" class="burger-checkbox">
+                <label for="burger-checkbox" class="burger"></label>
+                <ul class="menu-list">
+                    <li><a id="main1"  class="menu-item">Главная</a><li>
+                    <li><a id="services1" class="menu-item">Услуги</a><li>
+                    <li><a id="contacts1" class="menu-item">Контакты</a><li>
+                    <li><a id="admin1" class="menu-item">Админ</a><li>
+                    <li><a id="profile1" class="menu-item">Профиль</a><li>
+                </ul>
+              </div>
+
+
+          </div>
+          <div class="header__menu__right">
+            <div class="button-container-1">
+              <span class="mas">Вход</span>
+              <button href="#" id="work" type="button" name="Hover">
+                Вход
+              </button>
+            </div>
+            <a href="#"
+              ><img class="check-mode" src="assets/img/sun.png" alt="sun"
+            /></a>
+            <a href="#"
+              ><img class="check-mod" src="assets/img/moon-solid.svg" alt="sun"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="registr">
+      <div class="close">
+        <img src="assets/img/xmark-solid.svg" alt="xmark-solid" />
+      </div>
+      <h1>Вход</h1>
+      <h3>Введите ваш логин и пароль</h3>
+
+      <form action="">
+        <label for="first"> Логин: </label>
+        <input
+          type="text"
+          id="first"
+          name="first"
+          placeholder="Логин"
+          required
+        />
+
+        <label for="password"> Пароль: </label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Пароль"
+          required
+        />
+
+        <div class="wrap">
+          <button type="submit">Войти</button>
+          <button>
+            <img src="assets/img/google.png" alt="" /> Войти c помощью Google
+          </button>
+        </div>
+      </form>
+    </div>
+    <main class="index">
+      <div class="container" id="main">
+        <section class="breadcrumb_section">
+          <div class="breadcrumb flat">
+            <a target="_blank" href="index.html" class="active">ГЛАВНАЯ</a>
+            <a class="none" href="#"></a>
+          </div>
+        </section>
+        <section class="banner">
+          <div class="banner_left">
+            <h1>
+              БУРЕНИЕ <img src="assets/img/premium.png" alt="premium" /><br />
+              СКВАЖИН НА ВОДУ
+            </h1>
+            <p>
+              Чистая вода – это наша миссия. <br />
+              Наша компания специализируется на бурении скважин на воду для
+              частных домов, дач и предприятий. Используем современное
+              оборудование и опытные бригады. Гарантируем высокое качество работ
+              и чистую, вкусный воду в вашем доме.
+            </p>
+            <div class="banner__left__buttons">
+              <a target="_blank" href="assets/pages/services.html"
+                ><span data-attr="Смотреть">Смотреть</span
+                ><span data-attr="Каталог"></span
+              ></a>
+              <img src="assets/img/sale.png" alt="sale" />
+            </div>
+          </div>
+          <div class="banner_right">
+            <img src="assets/img/bannerimg.png" alt="bannerimg" />
+          </div>
+        </section>
+        <section class="why_us">
+          <div class="why_us__box">
+            <h2>
+              4 Причины, <br />
+              почему стоит выбрать нас:
+            </h2>
+            <div class="why_us__blocks">
+              <div class="why_us__blocks_elem">
+                <h3>
+                  <img src="assets/img/why_us.png" alt="why_us" />
+                  <p>Качественная работа</p>
+                </h3>
+                <p>
+                  Наши специалисты имеют многолетний опыт в бурении скважин и
+                  используют только современные технологии.
+                </p>
+                <div class="why_us__blocks_elem_imgs">
+                  <img src="assets/img/why_us_img.png" alt="why_us" />
+                  <img src="assets/img/why_us_img2.png" alt="why_us" />
+                </div>
+              </div>
+              <div class="why_us__blocks_elem">
+                <h3>
+                  <img src="assets/img/why_us.png" alt="why_us" />
+                  <p>Опыт и профессионализм</p>
+                </h3>
+                <p>
+                  За счет мощного оборудования и ответственного персонала, мы
+                  выполняем всю работу быстро и качественно!
+                </p>
+                <div class="why_us__blocks_elem_imgs">
+                  <img src="assets/img/why_us_img.png" alt="why_us" />
+                  <img src="assets/img/why_us_img2.png" alt="why_us" />
+                </div>
+              </div>
+              <div class="why_us__blocks_elem">
+                <h3>
+                  <img src="assets/img/why_us.png" alt="why_us" />
+                  <p>Качество и гарантия:</p>
+                </h3>
+                <p>
+                  Мы даем гарантию на все виды работ, так как уверены в качестве
+                  используемых материалов и профессионализме
+                </p>
+                <div class="why_us__blocks_elem_imgs">
+                  <img src="assets/img/why_us_img.png" alt="why_us" />
+                  <img src="assets/img/why_us_img2.png" alt="www" />
+                </div>
+              </div>
+              <div class="why_us__blocks_elem">
+                <h3>
+                  <img src="assets/img/why_us.png" alt="why_us" />
+                  <p>Индивидуальный подход:</p>
+                </h3>
+                <p>
+                  Мы учитываем ваши потребности и предлагаем оптимальное и
+                  разумное решение решение для каждого объекта.
+                </p>
+                <div class="why_us__blocks_elem_imgs">
+                  <img src="assets/img/why_us_img.png" alt="why_us" />
+                  <img src="assets/img/why_us_img2.png" alt="why_us" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="doc_sliders">
+          <div class="doc_sliders__box">
+            <div class="doc_slider__box__left_elem">
+              <h2>
+                2 года ГАРАНТИИ на все <br />
+                работы
+              </h2>
+              <p>
+                Мы не подвели ни одного покупателя, потому что каждая работа
+                проходит тщательную проверку по нашему авторскому чек-листу
+                обученными специалистами в отделе контроля качества и все
+                оборудование сертифицировано
+              </p>
+              <div class="banner__left__buttons">
+                <a target="_blank" href="assets/pages/services.html"
+                  ><span data-attr="Перейти">Перейти</span></a
+                >
+              </div>
+            </div>
+            <div class="doc_slider__box__right_elem" style="display: flex; gap: 20px;">
+              <div class="slider">
+                <img class='photo'  src="assets/img/doc4.png" alt="" />
+                <img class='photo'  src="assets/img/doc3.png" alt="" />
+                <img class='photo'  src="assets/img/doc2.png" alt="" />
+                <img class='photo'  src="assets/img/doc1.png" alt="" />
+              </div>
+              <div class="slider">
+                <img class='photo'  src="assets/img/doc1.png" alt="" />
+                <img class='photo'  src="assets/img/doc2.png" alt="" />
+                <img class='photo'  src="assets/img/doc3.png" alt="" />
+                <img class='photo'  src="assets/img/doc4.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="founder">
+          <div class="founder__box">
+            <div class="founder__box__left_elem">
+              <h2>
+                Бурение скважин нового<br />
+                поколения
+              </h2>
+              <p>
+                <img src="assets/img/founder_text_img.png" alt="founder" />
+                Наша компания более 11 лет занимается бурением скважин на воду.
+                За все время мы пробурили более 1 500 скважин для более чем
+                1 000 клиентов. <br /><br />
+
+                Сотни собранных отзывов и колоссальный накопленный опыт,
+                позволили нам создать оборудование превосходящие все аналоги в
+                индустрии. Мы с гордостью представляем вам бурение нового
+                поколения “БурМастер”.
+              </p>
+              <div>
+                <div class="bottom_elem">
+                  <h3>11 лет</h3>
+                  <p>на рынке</p>
+                </div>
+                <div class="bottom_elem">
+                  <h3>>2 000</h3>
+                  <p>клиентов</p>
+                </div>
+                <div class="bottom_elem">
+                  <h3>>15 000</h3>
+                  <p>скважин пробурено</p>
+                </div>
+              </div>
+            </div>
+            <div class="founder__box__right_elem">
+              <img src="assets/img/founder.png" alt="founder" />
+            </div>
+          </div>
+        </section>
+        <section class="feedback">
+          <div class="feedback__box">
+            <div class="feedback__box__left">
+              <img src="assets/img/feedback.png" alt="feedback" />
+            </div>
+            <div class="feedback__box__right">
+              <h2>ОСТАЛИСЬ ВОПРОСЫ?</h2>
+              <p>
+                Оставьте заявку или напишите нам на WhatsApp, чтобы задать их
+                лично нам и получить бесплатную консультацию!
+              </p>
+              <div class="feedback__box__right__buttons">
+                <div class="banner__left__buttons">
+                  <a target="_blank" href="assets/pages/kontacts.html">
+                    <span data-attr="Задать">Задать</span
+                    ><span data-attr="Вопрос">Вопрос</span>
+                  </a>
+                  <a target="_blank" href="https://web.whatsapp.com/">
+                    <span data-attr="Написать в">Написать в</span
+                    ><span data-attr="WhatsApp">WhatsApp</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="services"></div>
+      <div class="contacts"></div>
+      <div class="admin"></div>
+      <div class="profile"></div>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="footer__box">
+          <div class="footer__box__left">
+            <img src="assets/img/logo1.png" alt="logo" />
+          </div>
+          <div class="footer__box__right">
+            <div class="footer__box__right__flexbox">
+              <div class="footer__box__right__flexbox_elem">
+                <h3>Навигация по странице:</h3>
+                <a href="index.html">Главное</a>
+                <a href="">Преимущества</a>
+                <a href="">Результаты</a>
+                <a href="">Обратная связь</a>
+              </div>
+              <div class="footer__box__right__flexbox_elem">
+                <h3>Навигация по сайту:</h3>
+                <a href="index.html">Главная</a>
+                <a href="#">Услуги</a>
+                <a target="_blank" href="assets/pages/#">Корзина</a>
+                <a target="_blank" href="assets/pages/profile.html">Профиль</a>
+                <a target="_blank" href="assets/pages/admin.html"
+                  >Панель управления</a
+                >
+              </div>
+              <div class="footer__box__right__flexbox_elem">
+                <h3>Контакты</h3>
+                <a target="_blank" href="assets/pages/kontacts.html"
+                  >8 (800) 700 05-58</a
+                >
+                <div>
+                  <a target="_blank" href="https://www.youtube.com/"
+                    ><img src="assets/img/youtube.png" alt="youtube"
+                  /></a>
+                  <a target="_blank" href="instagram.com"
+                    ><img src="assets/img/instagram.png" alt="instagram"
+                  /></a>
+                  <a target="_blank" href="http://vk.com/"
+                    ><img src="assets/img/vk.png" alt="vk"
+                  /></a>
+                </div>
+                <div class="banner__left__buttons">
+                  <a target="_blank" href="assets/pages/kontacts.html"
+                    ><span data-attr="Связаться с нами"
+                      >Связаться с нами</span
+                    ></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom_footer">© Латыпов Риналь Ильдарович</div>
+    </footer>
+    <script src="./assets/js/generationPages.js"></script>
+    <script src="assets/js/switcher.js"></script>
+    <script src="assets/js/filter.js"></script>
+  </body>
+</html>
